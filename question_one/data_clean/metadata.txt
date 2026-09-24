@@ -1,0 +1,41 @@
+Project name: Frailty data analysis
+
+Source file:
+- data_raw/frailty_data.csv
+
+Clean file:
+- data_clean/processed.csv
+
+What this data is about:
+This dataset has information about people and their frailty status.
+It is used to study health, age, strength, and body size.
+
+Row count:
+- 10 rows
+
+Columns in the raw file:
+- Height
+- Weight
+- Age
+- Grip strength
+- Frailty
+
+New columns made during cleaning:
+- Height_m: height in meters
+- Weight_kg: weight in kilograms
+- BMI: body mass index
+- AgeGroup: age groups such as <30, 30-45, 46-60, >60
+- Frailty_binary: 1 = frail, 0 = not frail
+- AgeGroup_<30
+- AgeGroup_30-45
+- AgeGroup_46-60
+- AgeGroup_>60
+
+Simple notes:
+- Height and weight were changed to metric units.
+- A BMI value was calculated for each person.
+- Age was grouped into simple age ranges.
+- Frailty was changed to a number so it can be used in analysis.
+
+Main goal:
+To study how age, strength, and body size relate to frailty.

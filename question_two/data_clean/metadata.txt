@@ -1,0 +1,34 @@
+Project name: Student exam score analysis
+
+Source file:
+- data_raw/StudentsPerformance.csv
+
+Cleaned data:
+- This project reads the raw file directly for analysis.
+- No separate cleaned CSV is saved in this folder.
+
+What this data is about:
+This dataset has student information and their exam scores.
+It is used to compare scores by gender, lunch type, and test preparation.
+
+Row count:
+- 1000 rows
+
+Columns in the raw file:
+- gender
+- race/ethnicity
+- parental level of education
+- lunch
+- test preparation course
+- math score
+- reading score
+- writing score
+
+Simple notes:
+- There are no missing values in the source data.
+- The analysis compares subject scores and group differences.
+- The project creates charts for gender, lunch, and test preparation.
+- It also checks how the three scores relate to each other.
+
+Main goal:
+To study which factors are linked to higher student scores.
